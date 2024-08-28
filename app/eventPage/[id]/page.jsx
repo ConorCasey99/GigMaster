@@ -16,23 +16,59 @@ async function getEventData(id) {
     {
       id: "B09123N2FV",
       artistName: "The Stone Roses2",
-      eventDate: "12-09-25",
-      saleDate: "23-10-24",
-      description: "A legendary performance by The Stone Roses.",
-      venue: "Madison Square Garden",
+      eventDate: "12-09-26",
+      saleDate: "23-10-25",
+      description: "Another legendary performance by The Stone Roses.",
+      venue: "O2 Arena",
       imageUrl: "https://audioxide.com/api/images/album-artwork/the-stone-roses-the-stone-roses-medium-standard.jpg",
     },
     {
       id: "B09123F4QN",
       artistName: "The Stone Roses3",
-      eventDate: "12-09-25",
-      saleDate: "23-10-24",
-      description: "A legendary performance by The Stone Roses.",
-      venue: "Madison Square Garden",
+      eventDate: "12-09-27",
+      saleDate: "23-10-26",
+      description: "The Stone Roses take the stage yet again!",
+      venue: "Wembley Stadium",
       imageUrl: "https://audioxide.com/api/images/album-artwork/the-stone-roses-the-stone-roses-medium-standard.jpg",
     },
-    // More events can be added here
+    {
+      id: "B0912dc2FV",
+      artistName: "AC/DC",
+      eventDate: "12-10-01",
+      saleDate: "23-10-15",
+      description: "AC/DC rocking out with a power-packed performance.",
+      venue: "Sydney Opera House",
+      imageUrl: "https://i.etsystatic.com/14980242/r/il/eb1ec7/3969937145/il_fullxfull.3969937145_p9i9.jpg",
+    },
+    {
+      id: "D09123N2FV",
+      artistName: "Linkin Park",
+      eventDate: "12-10-05",
+      saleDate: "23-10-18",
+      description: "Linkin Park returns for a special concert event.",
+      venue: "Staples Center",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg",
+    },
+    {
+      id: "E09123F4QN",
+      artistName: "Coldplay",
+      eventDate: "12-11-15",
+      saleDate: "23-11-01",
+      description: "Coldplay delivers a breathtaking performance under the stars.",
+      venue: "Wembley Stadium",
+      imageUrl: "https://example.com/coldplay-image.jpg",
+    },
+    {
+      id: "F09123F4QN",
+      artistName: "Taylor Swift",
+      eventDate: "12-12-05",
+      saleDate: "23-11-15",
+      description: "Taylor Swift's Eras Tour is here for a magical evening.",
+      venue: "Madison Square Garden",
+      imageUrl: "https://example.com/taylorswift-image.jpg",
+    },
   ];
+  
 
   return events.find(event => event.id === id);
 }

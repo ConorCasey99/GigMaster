@@ -6,9 +6,9 @@ export const Navigation = () => {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <Link href="/" className="mr-5 hover:text-gray-900">Home</Link>
-          <Link href="/dashboard" className="mr-5 hover:text-gray-900">Your Concerts</Link>
-          <Link href="/explore" className="mr-5 hover:text-gray-900">Find Concerts</Link>
-          <Link href="/favorites" className="hover:text-gray-900">Favorite Artists</Link>
+          <Link href="/dashboard" className="mr-5 hover:text-gray-900">Your Events</Link>
+          <Link href="/findEvents" className="mr-5 hover:text-gray-900">Find Events</Link>
+          <Link href="/favoriteArtists" className="hover:text-gray-900">Favorite Artists</Link>
         </nav>
         <div className="lg:w-1/5 title-font font-medium items-center justify-center">
           <a className="flex items-center text-gray-900">
