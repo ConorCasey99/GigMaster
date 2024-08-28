@@ -1,5 +1,5 @@
-import { Container } from '../_components/Container'
-import Link from 'next/link'
+import { Container } from '../components/Container';
+import Link from 'next/link';
 
 export default function Page() {
   const upcomingFeed = [
@@ -24,7 +24,7 @@ export default function Page() {
       saleDate: "23-10-24",
       artistIcon: "https://audioxide.com/api/images/album-artwork/the-stone-roses-the-stone-roses-medium-standard.jpg",
     },
-  ]
+  ];
 
   return (
     <div className="container px-5 py-24 mx-auto">
@@ -37,9 +37,7 @@ export default function Page() {
                   <img
                     src={artist.artistIcon}
                     alt={artist.artistName}
-                    width={128}
-                    height={128}
-                    className="rounded-full"
+                    className="rounded-full object-cover w-full h-full"
                   />
                 </div>
                 <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
@@ -47,7 +45,7 @@ export default function Page() {
                     {artist.artistName}
                   </h2>
                   <p className="leading-relaxed text-base">Event Date: {artist.eventDate}</p>
-                  <Link href={`/events/${artist.id}`} className="mt-3 text-red-500 inline-flex items-center">
+                  <Link href={`/eventPage/${artist.id}`} className="mt-3 text-red-500 inline-flex items-center">
                     Learn More
                     <svg
                       fill="none"
@@ -71,5 +69,5 @@ export default function Page() {
         Button
       </button>
     </div>
-  )
+  );
 }
