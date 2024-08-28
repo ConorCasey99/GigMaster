@@ -1,3 +1,4 @@
+import "../styles/globals.css"
 
 export const Navigation = () => {
     return (
@@ -5,7 +6,7 @@ export const Navigation = () => {
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
       <a class="mr-5 hover:text-gray-900" href='/'>Home</a>
-      <a class="mr-5 hover:text-gray-900" href='/concerts'>Your Concerts</a>
+      <a class="mr-5 hover:text-gray-900" href='/dashboard'>Your Concerts</a>
       <a class="mr-5 hover:text-gray-900" href='/explore'>Find Concerts</a>
       <a class="hover:text-gray-900" href='/favorites'>Favorite Artists</a>
     </nav>
