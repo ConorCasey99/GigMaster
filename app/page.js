@@ -5,7 +5,7 @@ Renders a Next.js page component that displays a grid of character avatars with 
 @returns {JSX.Element} The rendered page component.
 */
 
-import { Container } from './_components/Container'
+import { Container } from '../_components/Container'
 import Image from 'next/image'
 import Link from 'next/link'
 
